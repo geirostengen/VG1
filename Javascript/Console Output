@@ -1,0 +1,71 @@
+Eksempel:
+ 
+Adressere med innerHTML
+Skrive til nettside:
+ 
+	<!DOCTYPE html>
+	<html>
+	<body>
+		<p id="alder"></p>
+		<script>
+			document.getElementById("alder").innerHTML = 2020 - 2004;
+		</script>
+	</body>
+	</html>
+ 
+https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+https://www.w3schools.com/js/js_output.asp
+ 
+ 
+Skrive til nettside med document.write()
+Skrive til nettside, sletter innhold hvis script kjøres etter at side er ferdig lastet
+ 
+	<!DOCTYPE html>
+	<html>
+	<body>
+		<h1>Beregning av alder</h1>
+		<p>Hvis du bruker document.write() etter siden er ferdig lastet inn vil script slette alt innhold på nettsiden</p>
+		<script>
+				document.write(2020 - 2004);
+		</script>
+		<br>
+		<button type="button" onclick="document.write(2020 - 2004)">Beregne alder igjen</button>
+	</body>
+	</html>
+ 
+https://developer.mozilla.org/en-US/docs/Web/API/Document/write
+https://www.w3schools.com/js/js_output.asp
+ 
+ 
+Bruke en alert box for å skrive tekst til skjerm med window.alert()
+Skrive til pop up boks.
+ 
+	<!DOCTYPE html>
+	<html>
+	<body>
+		<script>
+				window.alert(2020 - 2004);
+		</script>
+	</body>
+	</html>
+ 
+https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
+https://www.w3schools.com/js/js_output.asp
+ 
+ 
+ 
+Skrive til konsollvindu med console.log()
+For å kunne feilsøke i script, kan du bruke console.log for å dumpe verdier til konsollvindu.
+Ikke inne i html dokumentet. 
+ 
+	<!DOCTYPE html>
+	<html>
+	<body>
+		<script>
+				console.log(2020 - 2004);
+		</script>
+	</body>
+	</html>
+ 
+https://developer.mozilla.org/en-US/docs/Web/API/Window/console
+https://www.w3schools.com/js/js_output.asp
