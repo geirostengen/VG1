@@ -1,0 +1,30 @@
+Eksempel:
+print("Hello World")
+ 
+Viktig: print skrives som alle andre kommandoer med liten forbokstav!
+ 
+Hva brukes print til:
+print() funksjonen skriver en melding til skjermen, eller til en annen utenhet.
+ 
+- print() skriver ut tekst eller alt som kan gjøres om til tekst før det skrives ut.
+ 
+ 
+Syntax:
+print(object), sep , end, file, flush)
+ 
+ 
+Parametere
+ 
+object(s):
+	print("Hallo", "verden", "!")
+Skill tekst i " " eller ' ' med et komma så vil tekst skrives ut på skjerm
+ 
+sep:
+	print("Hallo", "verden", "!", sep="+")
+Valgfri parameter. Du kan angi hvordan du vil skille object fra hverandre.  Standard er blankt felt.
+ 
+ 
+end
+	print("Hallo", "verden", "! ",  end=" ")
+	print("Hallo", "igjen", "! ",  end=" Slutt")
+Valgfri parameter. Du kan angi slutt tekst eller kommando for print. Standard er '\n' (ny linje)
